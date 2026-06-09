@@ -4,10 +4,10 @@ import { articlesData } from '../data/blogData';
 
 export default function LatestArticles() {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-16">
+    <section className="max-w-7xl mx-auto px-6 py-20"  id='articles'>
       <div className="flex justify-between items-end mb-10">
         <div>
-          <h2 className="text-3xl font-extrabold text-gray-900 mb-2 dark:text-white">Latest Articles</h2>
+          <h2 className="text-3xl font-extrabold text-gray-900 mb-3 dark:text-white">Latest Articles</h2>
           <p className="text-gray-500 dark:text-gray-300">Stay updated with fresh insights and expert perspectives</p>
         </div>
         <a href="#" className="flex items-center space-x-1 text-emerald-800 font-semibold hover:underline text-sm">

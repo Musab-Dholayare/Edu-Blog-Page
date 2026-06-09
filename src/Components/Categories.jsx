@@ -4,11 +4,11 @@ import { categoriesData } from '../data/blogData';
 
 export default function Categories() {
   return (
-    <section className="bg-[#F6F5F0] py-16 px-6 dark:bg-gray-900">
+    <section className="bg-[#F6F5F0] py-16 px-6 dark:bg-gray-900" id="categories">
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex justify-between items-end mb-10">
           <div>
-            <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white mb-2">Popular Categories</h2>
+            <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white mb-3">Popular Categories</h2>
             <p className="text-gray-500 dark:text-gray-300">Explore our diverse range of educational content</p>
           </div>
           <a href="#" className="flex items-center space-x-1 text-emerald-800 font-semibold hover:underline text-sm pr-1">

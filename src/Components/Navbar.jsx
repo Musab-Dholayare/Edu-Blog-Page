@@ -19,8 +19,8 @@ export default function Navbar({ darkMode, setDarkMode }) {
 
           <div className="hidden md:flex space-x-8 text-gray-600 dark:text-gray-300 font-medium">
             <a href="#">Home</a>
-            <a href="#">Categories</a>
-            <a href="#">Articles</a>
+            <a href="#categories">Categories</a>
+            <a href="#articles">Articles</a>
             <a href="#">Resources</a>
           </div>
 
